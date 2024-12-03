@@ -1,0 +1,818 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C0C0C0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    margin: 0 auto;
+}   
+
+
+
+
+/* Main Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.main
+{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+}
+
+.main2 { 
+    max-width: 800px; /* Ancho máximo del contenedor */ 
+    text-align: center; /* Alineación de texto centrada */ 
+    width: 100%; /* Ancho completo */ 
+    margin: 0 auto; /* Centra horizontalmente */ 
+    padding: 20px; /* Padding alrededor del contenedor */ 
+    display: flex; /* Utiliza flexbox para centrar el contenido */ 
+    justify-content: center; /* Centra horizontalmente */ 
+    align-items: center; /* Centra verticalmente */ 
+    min-height: 100vh; /* Altura mínima de 100% de la pantalla */ 
+} /* Contenido del formulario */ 
+.form-content { 
+    width: 100%; /* Ancho completo del contenedor */ 
+    max-width: 500px; /* Ancho máximo del formulario */ 
+    padding: 40px; /* Padding alrededor del contenido */ 
+    border: 2px solid #ccc; /* Borde con grosor de 2px y color gris */ 
+    border-radius: 10px; /* Bordes redondeados */ 
+    background-color: #f9f9f9; /* Color de fondo claro */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */ 
+} 
+ .form-content label { display: block; /* Asegura que las etiquetas se muestren como bloques */ 
+    margin-bottom: 2px; /* Margen inferior para espaciado */ 
+    font-size: 16px; /* Tamaño de la fuente */ }
+
+/* Outer Container Styles */
+.outer-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Container 1 Styles */
+.container1 {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    
+}
+
+/* Image Container Styles */
+.image-container {
+    margin-right: 50px;
+    
+}
+.image-container2{
+    margin-right: 20px;
+    width: 20px;
+    height: auto;
+    
+}
+
+.custom-image {
+    width: 500px;
+    height: auto;
+}
+
+/* Logo Styles */
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Heading Styles */
+h2 {
+    color: black;
+    text-align: center; 
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: black; 
+    justify-content: center;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #030000;
+}
+
+/* Input Styles */
+input[type="text"], input[type="password"], input[type="date"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Register Button Styles */
+.register-btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background-color: #218838;
+}
+
+/* Container 2 Styles */
+.container2 { 
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.541); 
+    padding: 60px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 300px; 
+    position: relative; 
+    z-index: 1; 
+    margin: 0 auto; 
+}
+
+/* Container 3 Styles */
+.container3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.932);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #8f8e8f; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #BB8FCE;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.icons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icons a:hover .icon {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.salad-background {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    z-index: 0;
+}
+
+.salad-left {
+    bottom: 10%;
+    left: 5%;
+}
+
+.salad-right {
+    top: 10%;
+    right: 5%;
+}
+
+.regresar-btn {
+    background-color: #8f8e8f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.regresar-btn:hover {
+    background-color: #BB8FCE;
+}
+/*calendario*/
+.menu-container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-header {
+    background-color: #4f525509;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.menu-button-container a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #64686d;
+    transition: background-color 0.3s;
+}
+
+.menu-button-container a:hover {
+    background-color: #435569;
+}
+
+.menu-calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black; 
+}
+
+.menu-calendar-header {
+    background-color: #6b7279;
+    color: white;
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+.menu-calendar-cell {
+    width: 14.28%;
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #f9f9f9;
+    height: 200px; 
+    
+}
+
+.menu-calendar-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.menu-calendar-menu {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.menu-calendar-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.menu-calendar-button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+}
+
+.menu-calendar-button-si {
+    background-color: #28a745;
+    color: white;
+}
+
+.menu-calendar-button-si:hover {
+    background-color: #218838;
+}
+
+.menu-calendar-button-no {
+    background-color: #dc3545;
+    color: white;
+}
+
+.menu-calendar-button-no:hover {
+    background-color: #c82333;
+}
+
+.menu-calendar-textarea {
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    resize: none;
+}
+
+
+/* Table Styles */
+.table-container {
+    margin-bottom: 20px;
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #a09fa0; 
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Action Button Styles */
+.action-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.action-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Search Section Styles */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.search-btn {
+    background-color: #8f8e8f;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+ 
+.search-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+}
+.form-container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.asignacion-form { 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 10px; 
+    background-color: #f7f7f7; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Input Styles for Form */
+form input[type="text"], form input[type="date"], form input[type="tel"], form input[type="password"], form select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.form-bitacora { 
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+     text-align: center;
+     
+     }
+
+/* Form Buttons */
+form .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+form input[type="submit"], form .register-btn {
+    background-color: #8f8e8f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(48% - 10px);
+}
+
+form input[type="submit"]:hover, form .register-btn:hover {
+    background-color: #BB8FCE;
+}
+
+/* Specific styles for reportesnut page */
+.reportes-body {
+    font-family: Arial, sans-serif;
+    background-color: #C0C0C0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.reportes-outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.reportes-container1 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.reportes-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reportes-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reportes-container2 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 400px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.reportes-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.reportes-image-container2 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin: 20px;
+}
+
+.reportes-custom-image {
+    width: 300px;
+    height: auto;
+}
+
+.reportes-logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.reportes-h2, .reportes-h1 {
+    color: black;
+    text-align: center; 
+    justify-content: center;
+}
+
+.reportes-btn {
+    background-color: #8f8e8f; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.reportes-btn:hover {
+    background-color: #BB8FCE;
+}
+
+.reportes-regresar-btn {
+    background-color: #8f8e8f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.reportes-regresar-btn:hover {
+    background-color: #BB8FCE;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Specific styles for respaldo page */
+.respaldo-body {
+    font-family: Arial, sans-serif;
+    background-color: #C0C0C0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.respaldo-outer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.respaldo-content-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.respaldo-header {
+    margin-bottom: 20px;
+}
+
+.respaldo-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.respaldo-btn {
+    background-color: #8f8e8f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.respaldo-btn:hover {
+    background-color: #BB8FCE;
+}
+
+.respaldo-regresar-btn {
+    background-color: #8f8e8f;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.respaldo-regresar-btn:hover {
+    background-color: #BB8FCE;
+}
+
+.respaldo-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.respaldo-image-container2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.respaldo-custom-image {
+    width: 300px;
+    height: auto;
+}
+
+.respaldo-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C0C0C0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cerrar:hover {
+    background-color: #e64a19;
+}
+
